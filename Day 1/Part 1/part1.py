@@ -1,5 +1,5 @@
 def main():
-    with open('input.txt', 'r') as file:
+    with open('../input.txt', 'r') as file:
         sum = 0
         for line in file:
             numbers = [int(s) for s in line if s.isdigit()]
